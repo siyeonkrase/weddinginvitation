@@ -1,4 +1,5 @@
 ## About This Project
+<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/6a298c62-044a-4022-ab1b-6fc126df43f2" />
 
 This project is based on an open-source wedding invitation template by  
 **Daeng Muhammad Feisal** (MIT License).
