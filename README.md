@@ -11,3 +11,18 @@ I customized and extended the original template with:
 - Enhanced overall UX for mobile-first usage, considering non-technical end users
 
 Original project credit is preserved according to the MIT License.
+
+## Wedding Invitation Website
+
+A bilingual wedding invitation site customized for real-world guests.
+
+### Features
+- Automatic language detection (EN / KR)
+- Mobile-first responsive layout
+- RSVP integration via Google Forms
+
+### Tech Stack
+HTML, CSS, JavaScript
+
+### Live Demo
+https://siyeonkrase.github.io/weddinginvitation/
