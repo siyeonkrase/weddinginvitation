@@ -1,13 +1,11 @@
 const selector = document.querySelector("#languageSelector");
-// const routingNum = document.querySelector("#routing_num");
-// const venmo = document.querySelector("#venmo");
 
 const langResource = {
     ko : {
-            title_name: "이든과 시연의 결혼식 초대장",
+            title_name: "올리버와 레나의 결혼식 초대장",
             line1: "여러분을 초대합니다!",
-            line2: "Siyeon & Ethan",
-            line3: `2025년 8월 13일 수요일 (태평양 표준시) </br> 20024 Valley View Dr, </br> Topanga, CA, 90290`,
+            line2: "Lena & Oliver",
+            line3: `2028년 8월 13일 수요일 (태평양 표준시) </br> 12405 E Waterfront Dr, </br> Los Angeles, CA 90045`,
             days: "일",
             hours: "시간",
             mins: "분",
@@ -19,7 +17,7 @@ const langResource = {
             nav_rsvp: "참석 여부",
             line4: `저희 결혼합니다! </br> 사랑과 웃음이 넘치는 그날, 함께 해주세요. </br></br>`,
             title_schedule: "일정 (태평양 표준시)",
-            schedule_date: `<div class="waktu tanggal-hari has-text-centered">2025년 8월</div> 
+            schedule_date: `<div class="waktu tanggal-hari has-text-centered">2028년 8월</div> 
                             <div class="waktu tanggal-angka has-text-centered">13</div>
                             <div class="waktu tanggal-bulan has-text-centered">수요일</div>`,
             schedule_time: `시간:
@@ -29,9 +27,9 @@ const langResource = {
                                 <br>
                                 <strong>오후 5:00</strong>`,
             title_location: "위치",
-            exact_location: `20024 Valley View Dr,
+            exact_location: `12405 E Waterfront Dr,
                             </br>
-                            Topanga, CA, 90290
+                            Los Angeles, CA 90045
                             </br>`,
             btn_dir: "길찾기",
             title_photos: "사진",
@@ -56,15 +54,15 @@ const langResource = {
                                 </br></br>
                                 결혼식이 미국에서 진행되는 관계로 직접 인사를 드리지 못하고 이렇게 계좌 정보를 안내드리는 점 너그럽게 양해 부탁드립니다.
                                 </br></br>`,
-            account_label: "예금주 : 강시연",
-            accountNumber: "카카오뱅크 3333-29-9922646",
+            account_label: "예금주 : 레나",
+            accountNumber: "카카오뱅크 1234-56-7890000",
             copy1: "복사하기"
         },
     en : {
-            title_name: "The Wedding of Ethan & Siyeon",
+            title_name: "The Wedding of Oliver & Lena",
             line1: "Save the Date!",
-            line2: "Siyeon & Ethan",
-            line3: `Wednesday, 13 August 2025 (PST) </br> 20024 Valley View Dr, </br> Topanga, CA, 90290`,
+            line2: "Lena & Oliver",
+            line3: `Wednesday, 13 August 2028 (PST) </br> 12405 E Waterfront Dr, </br> Los Angeles, CA 90045`,
             days: "Days",
             hours: "Hours",
             mins: "Minuets",
@@ -78,7 +76,7 @@ const langResource = {
             title_schedule: "SCHEDULE",
             schedule_date: `<div class="waktu tanggal-hari has-text-centered">Wednesday</div> 
                             <div class="waktu tanggal-angka has-text-centered">13</div>
-                            <div class="waktu tanggal-bulan has-text-centered">August 2025</div>`,
+                            <div class="waktu tanggal-bulan has-text-centered">August 2028</div>`,
             schedule_time: `Time:
                             <br>
                             <strong>4:00PM PST</strong>`,
@@ -86,9 +84,9 @@ const langResource = {
                                 <br>
                                 <strong>5:00PM PST</strong>`,
             title_location: "LOCATION",
-            exact_location: `20024 Valley View Dr,
+            exact_location: `12405 E Waterfront Dr,
                             </br>
-                            Topanga, CA, 90290
+                            Los Angeles, CA 90045
                             </br>`,
             btn_dir: "Directions",
             title_photos: "PHOTOS",
@@ -112,7 +110,7 @@ const langResource = {
                                 If you wish to contribute further, a donation toward our future together would be deeply appreciated.
                                 </br></br>`,
             account_label: "Venmo",
-            accountNumber: "@Ethan-Krase",
+            accountNumber: "@ThisIsNotRealId",
             copy1: "Copy"
         }
 }
@@ -131,13 +129,6 @@ function chooseLanguage() {
 function changeLanguage() {
     const selectedLang = selector.value;
     updateLanguage(selectedLang);
-    // if(selector.value === "en") {
-    //     routingNum.removeAttribute("hidden");
-    //     venmo.removeAttribute("hidden");
-    // } else if(selector.value === "ko" && !venmo.hasAttribute("hidden")) {
-    //     routingNum.setAttribute("hidden", true);
-    //     venmo.setAttribute("hidden", true);
-    // }
 }
 
 function updateLanguage(lang) {
