@@ -1,5 +1,5 @@
 ## About This Project
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/6a298c62-044a-4022-ab1b-6fc126df43f2" />
+<img width="1920" height="1032" alt="wedding" src="https://github.com/user-attachments/assets/b8749229-ec79-49e0-acd4-a71728ee146c" />
 
 This project was originally created as a **real wedding invitation website**
 and actively used by real-world guests.
